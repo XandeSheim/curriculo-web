@@ -42,7 +42,7 @@ html ::-webkit-scrollbar {
 body {
     background-color: black;
     background-image: url("imagens/bg.jpg");
-    background-size: 3800px 1800px;
+    background-size: cover;
     background-position: top center;
 }
 
@@ -131,11 +131,7 @@ footer a:hover {
 
 
 @media (max-width: 745px) {
-    body {
-        background-image: url("imagens/bg-pequena.jpg");
-        background-size: 745px 1500px;
-        
-    }
+    
 
     .logo-1 {
         margin-bottom: 0px;
