@@ -157,6 +157,7 @@ footer a {
 
     .nav-list {
         position: absolute;
+        margin: auto;
         top: 105px;
     }
     
