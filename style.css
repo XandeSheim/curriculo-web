@@ -42,6 +42,7 @@ html ::-webkit-scrollbar {
 body {
     background-image: url("imagens/bg.jpg");
     background-size: 3800px 1800px;
+    background-position: top center;
 }
 
 .container {
@@ -87,6 +88,9 @@ nav {
     background-color: var(--cor4);
 }
 
+main{
+    height: 81vh;
+}
 
 main p {
     color: white;
