@@ -154,6 +154,7 @@ footer a {
     nav {
         height: 150px;
         justify-content: center;
+        
     }
 
     .nav-list {
@@ -163,8 +164,15 @@ footer a {
     
     .nav-list li {
         padding: 0px;
-        margin: 0px 0px 0px 0px;
+        margin: 0px -4px 0px -4px;
+        
     }
+
+    .nav-list li:not(:last-child)::after{
+        content: "|"; /* Caractere ou conteúdo que será exibido entre os itens */
+        margin: 0px 3px 0px -4px; /* Margem opcional para ajustar o espaço entre o caractere e os itens */
+        color: #99CFFF;
+      }
     
 
     .nav-list li a:hover {
