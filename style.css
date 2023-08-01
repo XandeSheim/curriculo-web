@@ -152,16 +152,16 @@ footer a {
         height: 150px;
         justify-content: center;
     }
-    
-    .nav-list li a {
-        padding: 0px;
-    }
-    
 
     .nav-list {
         position: absolute;
         top: 105px;
     }
+    
+    .nav-list li a {
+        padding: 0px;
+    }
+    
 
     .nav-list li a:hover {
         background: #ffffff00;
