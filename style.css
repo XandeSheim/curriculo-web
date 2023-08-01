@@ -39,10 +39,13 @@ html ::-webkit-scrollbar {
     padding: 0px;
 }
 
+body {
+    background-image: url("imagens/bg.jpg");
+}
+
 
 
 nav {
-    position: fixed;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -57,17 +60,6 @@ nav {
 .logo-1 {
     width: 200px;
 }
-
-
-
-.space-bg {
-    background: url("bg.jpg") no-repeat center center;
-    background-size: cover;
-    z-index: -1;
-    max-width: 100%;
-    
-}
-
 
 
 .nav-list {
@@ -109,6 +101,14 @@ nav {
     background-color: var(--cor4);
 }
 
+main {
+    width: 100vh;
+    text-align: justify;
+}
+
+main p {
+    color: white;
+}
 
 
 
