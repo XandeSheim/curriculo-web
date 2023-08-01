@@ -4,6 +4,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 
+html ::-webkit-scrollbar {
+    width: 8px;
+  }
+  html ::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: var(--cor2);
+  }
+  html ::-webkit-scrollbar-track {
+    background: var(--cor0);
+  }
+
+
 
 :root {
     --cor0:#99CFFF;
