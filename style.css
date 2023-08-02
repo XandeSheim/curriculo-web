@@ -130,8 +130,6 @@ footer a:hover {
 
 
 
-
-
 @media (max-width: 745px) {
     
 
@@ -140,23 +138,31 @@ footer a:hover {
         margin: 10px 0px 1px 0px;
     }
 
+    
+
     nav {
         margin: 0px;
         height: 125px;
     }
 
+
+
     .nav-list {
         position: absolute;
         top: 80px;
     }
+
+
     
     .nav-list li {
         margin: 0px;
     }
 
+
+
     .nav-list li:not(:last-child)::after{
         content: "|"; /* Caractere ou conteúdo que será exibido entre os itens */
-        margin: 0px -22px 0px -4px; /* Margem opcional para ajustar o espaço entre o caractere e os itens */
+        margin: 0px -22px 0px -7px; /* Margem opcional para ajustar o espaço entre o caractere e os itens */
         color: #99CFFF;
       }
     
