@@ -17,8 +17,6 @@ html ::-webkit-scrollbar {
   }
 
 
-
-
 :root {
     --cor0:#99CFFF;
     --cor1:#5CB3FF;
@@ -32,13 +30,10 @@ html ::-webkit-scrollbar {
 }
 
 
-
-
 * {
     margin:  0px;
     padding: 0px;
 }
-
 
 
 body {
@@ -49,7 +44,6 @@ body {
     background-attachment: fixed;
     
 }
-
 
 
 .container {
@@ -64,9 +58,11 @@ nav {
     
 }
 
+
 .logo-1 {
     width: 260px;
 }
+
 
 .nav-list {
     display: flex;
@@ -74,12 +70,14 @@ nav {
     align-items: center;
 }
 
+
 .nav-list li{
     font-family: var(--fonte-destaque);
     letter-spacing: 0.1em;
     padding: 8px;
     border-radius: 8px;
 }
+
 
 .nav-list li a{
     color: var(--cor1);
@@ -90,20 +88,21 @@ nav {
     border-radius: 8px;
 }
 
+
 .nav-list li a:hover {
     opacity: 0.8;
     background-color: var(--cor4);
 }
 
+
 main{
     height: 85vh;
 }
 
+
 main p {
     color: white;
 }
-
-
 
 
 footer {
@@ -115,8 +114,6 @@ footer {
 }
 
 
-
-
 footer a {
     font-weight: bold;
     text-decoration: none;
@@ -126,12 +123,12 @@ footer a {
     
 }
 
+
 footer a:hover {
     background-color: var(--cor4);
     padding: 5px;
     
 }
-
 
 
 @media (max-width: 745px) {
@@ -164,13 +161,15 @@ footer a:hover {
 
 
 
-    .nav-list li:not(:last-child)::after{
+    .nav-list li:not(:last-child)::after {
         content: "|"; /* Caractere ou conteúdo que será exibido entre os itens */
         margin: 0px -22px 0px -7px; /* Margem opcional para ajustar o espaço entre o caractere e os itens */
         color: #99CFFF;
-      }
+    }
     
 
+
     .nav-list li a:hover {
+        
     }
 }
