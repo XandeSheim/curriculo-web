@@ -98,7 +98,6 @@ nav {
 
 
 main{
-    height: 85vh;
 }
 
 
@@ -136,7 +135,7 @@ footer a:hover {
 @media (max-width: 745px) {
     
 
-    .logo-1 {
+    .logo {
         margin-bottom: 0px;
         margin: 10px 0px 1px 0px;
     }
