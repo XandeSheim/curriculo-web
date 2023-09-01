@@ -18,12 +18,13 @@ html ::-webkit-scrollbar {
 
 
 :root {
-    --cor0:#99CFFF;
-    --cor1:#5CB3FF;
-    --cor2:#006DCC;
-    --cor3:#0057A3;
-    --cor4:#003666;
-    --cor5:#001629;
+    --cor0:#e62ef8;
+    --cor1:#3d91db;
+    --cor2:#F2CB05;
+    --cor3:#ffe0e3;
+    --cor4:#00c081;
+    --cor5:#fe8b82;
+    --cor6:#ed1846;
 
     --fonte-padrão: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', sans-serif;
