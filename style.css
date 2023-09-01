@@ -46,8 +46,10 @@ body {
 }
 
 
-.container {
-
+header.container {
+    position: sticky;
+    top: 15px;
+    z-index: 999;
 }
 
 
@@ -62,9 +64,11 @@ nav {
 
 
 .logo {
+    
     width: 260px;
 }
 
+  
 
 .nav-list {
     display: flex;
@@ -97,13 +101,36 @@ nav {
 }
 
 
-main{
-}
 
 
 main p {
     color: white;
 }
+
+main > div#top-banner {
+    background-color: #006DCC;
+    width: 100%;
+    height: 700px;
+}
+
+main > div#grid-top {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 0px;
+}
+
+main > div > div#top-left {
+    background-color: orange;
+    height: 560px;
+    margin-right: 0px;
+}
+
+main > div > div#top-right {
+    background-color: green;
+    height: 560px;
+}
+
 
 
 footer {
