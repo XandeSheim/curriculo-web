@@ -10,10 +10,10 @@ html ::-webkit-scrollbar {
   }
   html ::-webkit-scrollbar-thumb {
     border-radius: 5px;
-    background: var(--cor2);
+    background: var(--cor1);
   }
   html ::-webkit-scrollbar-track {
-    background: var(--cor0);
+    background: var(--cor3);
   }
 
 
@@ -36,6 +36,9 @@ html ::-webkit-scrollbar {
     padding: 0px;
 }
 
+html {
+}
+
 
 body {
     background-color: black;
@@ -48,9 +51,11 @@ body {
 
 
 header.container {
+    height: 100px;
     position: sticky;
-    top: 15px;
+    top: 0px;
     z-index: 999;
+    padding: 50px 80px 50px 80px;
 }
 
 
@@ -58,15 +63,14 @@ header.container {
 
 nav {
     display: flex;
-    justify-content: space-around;
-    margin: 20px;
+    justify-content: space-between;
     
 }
 
 
 .logo {
     
-    width: 260px;
+    width: 200px;
 }
 
   
@@ -126,8 +130,12 @@ main > div > div#top-left {
 }
 
 main > div > div#top-right {
-    background-color: white;
+    background-color: rgb(255, 250, 225);
     height: 560px;
+}
+
+.topo {
+    margin-top: -200px;
 }
 
 
@@ -147,7 +155,7 @@ footer > p {
 footer > p > a {
     font-weight: bold;
     text-decoration: none;
-    color: var(--cor1);
+    color: white;
     border-radius: 10px;
     
     
