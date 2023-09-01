@@ -86,18 +86,16 @@ nav {
 
 
 .nav-list li a{
-    color: var(--cor1);
-    font-size: 18px;
+    color: white;
+    font-size: 22px;
     transition: 0.3s;
     text-decoration: none;
     padding: 8px;
-    border-radius: 8px;
 }
 
 
 .nav-list li a:hover {
-    opacity: 0.8;
-    background-color: var(--cor4);
+    opacity: 0.5;
 }
 
 
@@ -107,7 +105,7 @@ main p {
     color: white;
 }
 
-main > div#top-banner {
+main > div#full-banner {
     background-color: #006DCC;
     width: 100%;
     height: 700px;
@@ -127,35 +125,36 @@ main > div > div#top-left {
 }
 
 main > div > div#top-right {
-    background-color: green;
+    background-color: white;
     height: 560px;
 }
 
 
 
 footer {
+    height: 100px;
     font-family: var(--fonte-padrão) ;
     background-color: var(--cor5);
-    padding: 10px;
     color: white;
     text-align: center;
 }
+footer > p {
+    padding: 40px;
+}
 
 
-footer a {
+footer > p > a {
     font-weight: bold;
     text-decoration: none;
     color: var(--cor1);
     border-radius: 10px;
-    padding: 5px;
+    
     
 }
 
 
-footer a:hover {
-    background-color: var(--cor4);
-    padding: 5px;
-    
+footer > p:hover {
+    opacity: 0.5;
 }
 
 

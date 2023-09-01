@@ -18,22 +18,13 @@
 
 
     .nav-list {
-        position: absolute;
-        top: 80px;
+        margin: 0px 0px 10px 0px;
     }
 
 
     
     .nav-list li {
         margin: 0px;
-    }
-
-
-
-    .nav-list li:not(:last-child)::after {
-        content: "|"; /* Caractere ou conteúdo que será exibido entre os itens */
-        margin: 0px -22px 0px -7px; /* Margem opcional para ajustar o espaço entre o caractere e os itens */
-        color: #99CFFF;
     }
     
 
