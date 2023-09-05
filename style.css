@@ -64,7 +64,8 @@ html ::-webkit-scrollbar {
     padding: 0px;
 }
 
-html {
+html, body {
+    width: 100vw;
 }
 
 
@@ -77,9 +78,11 @@ body {
     
 }
 
+header {
+    width: 100vw;
+}
 
 .container {
-    width: 90vw;
     position: fixed;
     top: 0;
     left: 0;
@@ -91,6 +94,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 
 
