@@ -184,8 +184,9 @@ main > div > div#top-right {
 
 }
 
-.text-plataformas > p {
+.text-plataformas > h2 {
     font-family: museosans500;
+    color: white;
     font-style: italic;
     font-size: 25px;
 
