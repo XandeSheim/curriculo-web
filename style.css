@@ -156,9 +156,13 @@ main > div > div#top-right {
     height: 700px;
 }
 
+.space1 {
+    padding-top: 240px;
+    
+}
+
 .banner1 {
     margin: auto;
-    padding-top: 240px;
     width: 800px;
 }
 
