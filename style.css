@@ -2,6 +2,34 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: museosans100;
+    src: url(fontes/museosans-100.ttf);
+}
+
+@font-face {
+    font-family: museosans300;
+    src: url(fontes/museo-sans-300.ttf);
+}
+
+@font-face {
+    font-family: museosans500;
+    src: url(fontes/MuseoSans_500.otf);
+}
+
+@font-face {
+    font-family: museosans700;
+    src: url(fontes/museo-sans-700.ttf);
+}
+
+@font-face {
+    font-family: museosans900;
+    src: url(fontes/museosans-900.ttf);
+}
+@font-face {
+    font-family: museosans1000;
+    src: url(fontes/museo-sans-w01-rounded-1000.ttf);
+}
 
 
 
@@ -118,18 +146,18 @@ main > div#full-banner {
 
 main > div#grid-top {
     margin: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 0px;
+    display: flex;
+    flex-direction: row;
 }
 
 main > div > div#top-left {
-    height: 800px;
-    margin-right: 0px;
+    height: 700px;
+    width: 50%;
 }
 
 main > div > div#top-right {
-    height: 800px;
+    height: 700px;
+    width: 50%;
 }
 
 .topo {
@@ -139,11 +167,55 @@ main > div > div#top-right {
 
 .topo-esquerda {
     background-color: var(--cor6);
+}
+
+.text-plataformas {
+    max-width: 490px;
+    margin: auto;
+    margin-top: 220px;
+}
+
+.text-plataformas > h1 {
+    font-family: museosans900;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 23px;
+    letter-spacing: 2px;
+
+}
+
+.text-plataformas > p {
+    font-family: museosans500;
+    font-style: italic;
+    font-size: 25px;
 
 }
 
 .topo-direita {
     background-color: var(--cor1);
+}
+
+.platforms-container {
+    background-color: white;
+    border-radius: 20px;
+    width: 560px;
+    padding: 20px 30px 25px 30px;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.row-platforms {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    margin: auto;
+}
+
+.platforms {
+    width: 120px;
+    align-items: center;
+    margin: 30px;
 }
 
 .full2 {
