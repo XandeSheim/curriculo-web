@@ -3,33 +3,4 @@
 @media (max-width: 745px) {
     
 
-    .logo {
-        margin-bottom: 0px;
-        margin: 10px 0px 1px 0px;
-    }
-
-
-
-    nav {
-        margin: 0px;
-        height: 125px;
-    }
-
-
-
-    .nav-list {
-        margin: 0px 0px 10px 0px;
-    }
-
-
-    
-    .nav-list li {
-        margin: 0px;
-    }
-    
-
-
-    .nav-list li a:hover {
-        
-    }
 }

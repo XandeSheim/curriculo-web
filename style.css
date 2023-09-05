@@ -78,30 +78,30 @@ body {
 }
 
 
-header.container {
-    height: 100px;
-    position: sticky;
-    top: 0px;
-    z-index: 999;
-    padding: 50px 80px 50px 80px;
+.container {
+    width: 90vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    padding: 50px 100px 50px 100px;
 }
 
-
-
-
-nav {
+.flex {
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    
 }
+
 
 
 .logo {
-    
     width: 200px;
 }
 
-  
+.logo:hover {
+    opacity: 0.9;
+}
 
 .nav-list {
     display: flex;
@@ -131,17 +131,8 @@ nav {
     opacity: 0.5;
 }
 
-
-
-
 main p {
     color: white;
-}
-
-main > div#full-banner {
-    
-    width: 100%;
-    height: 700px;
 }
 
 main > div#grid-top {
@@ -161,8 +152,29 @@ main > div > div#top-right {
 }
 
 .topo {
-    margin-top: -200px;
     background-color: var(--cor4);
+    height: 700px;
+}
+
+.banner1 {
+    margin: auto;
+    padding-top: 240px;
+    width: 800px;
+}
+
+.banner1 > h1 {
+    text-align: center;
+    color: white;
+    font-family: museosans900;
+    letter-spacing: 1.5px;
+    margin-bottom: 15px;
+}
+
+.banner1 > h2 {
+    text-align: center;
+    color: white;
+    font-family: museosans300;
+    letter-spacing: 1.2px;
 }
 
 .topo-esquerda {
@@ -221,14 +233,17 @@ main > div > div#top-right {
 
 .full2 {
     background-color: var(--cor3);
+    height: 700px;
 }
 
 .full3 {
     background-color: var(--cor5);
+    height: 700px;
 }
 
 .full4 {
     background-color: var(--cor3);
+    height: 700px;
 }
 
 
