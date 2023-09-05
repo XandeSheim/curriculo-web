@@ -251,7 +251,7 @@ main > div > div#top-right {
 footer {
     height: 100px;
     font-family: var(--fonte-padrão) ;
-    background-color: var(--cor5);
+    background-color: var(--cor0);
     color: white;
     text-align: center;
 }
