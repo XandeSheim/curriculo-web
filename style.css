@@ -20,7 +20,7 @@ html ::-webkit-scrollbar {
 :root {
     --cor0:#e62ef8;
     --cor1:#3d91db;
-    --cor2:#F2CB05;
+    --cor2:#fff4c5;
     --cor3:#ffe0e3;
     --cor4:#00c081;
     --cor5:#fe8b82;
@@ -111,7 +111,7 @@ main p {
 }
 
 main > div#full-banner {
-    background-color: #006DCC;
+    
     width: 100%;
     height: 700px;
 }
@@ -124,18 +124,38 @@ main > div#grid-top {
 }
 
 main > div > div#top-left {
-    background-color: orange;
-    height: 560px;
+    height: 800px;
     margin-right: 0px;
 }
 
 main > div > div#top-right {
-    background-color: rgb(255, 250, 225);
-    height: 560px;
+    height: 800px;
 }
 
 .topo {
     margin-top: -200px;
+    background-color: var(--cor4);
+}
+
+.topo-esquerda {
+    background-color: var(--cor6);
+
+}
+
+.topo-direita {
+    background-color: var(--cor1);
+}
+
+.full2 {
+    background-color: var(--cor3);
+}
+
+.full3 {
+    background-color: var(--cor5);
+}
+
+.full4 {
+    background-color: var(--cor3);
 }
 
 
