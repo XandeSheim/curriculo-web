@@ -183,6 +183,11 @@ main > div > div.topo-direita {
     font-weight: lighter;
 }
 
+.grid-topo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .topo-esquerda {
     background-color: var(--cor6);
 }
@@ -284,11 +289,11 @@ main > div > div.topo-direita {
 }
 
 .clientes {
+    margin: auto;
     padding: 20px 30px;
     width: 150px;
     height: 80px;
 }
-
 .clientes img {
     width: 100%;
     height: 100%;
@@ -298,9 +303,68 @@ main > div > div.topo-direita {
 
 
 .full4 {
+    display: flex;
     background-color: var(--cor3);
     height: 700px;
 }
+
+.plataformas-clientes {
+    margin: auto;
+    display: flex;
+}
+
+
+.bloco1, .bloco2, .bloco3 {
+    width: 340px;
+    height: 500px;
+    border: solid 1px black;
+    border-radius: 30px;
+    margin: 60px 40px;
+    
+}
+
+
+.logo-plataforma-clientes {
+    margin: auto;
+    margin-top: 40px;
+    width: 150px;
+    height: 100px;
+}
+
+.logo-plataforma-clientes img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.material-symbols-outlined {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.clientes-b2 {
+    margin: auto;
+    padding: 20px 10px;
+    width: 150px;
+    height: 80px;
+}
+
+.clientes-b2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.row-clientes-b2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
 
 
 
