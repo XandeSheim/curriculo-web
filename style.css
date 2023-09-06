@@ -35,6 +35,7 @@
 
 html ::-webkit-scrollbar {
     width: 8px;
+    height: 8px;
   }
   html ::-webkit-scrollbar-thumb {
     border-radius: 5px;
@@ -64,10 +65,6 @@ html ::-webkit-scrollbar {
     padding: 0px;
 }
 
-html, body {
-    width: 100vw;
-}
-
 
 body {
     background-color: black;
@@ -78,60 +75,62 @@ body {
     
 }
 
-header {
-    width: 100vw;
-}
-
-.container {
+#header {
+    width: 100%;
+    padding: 50px;
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 2;
-    padding: 50px 100px 50px 100px;
 }
+
+.container {
+    margin: auto;
+    margin-right: 100px;
+    flex-direction: row;
+
+}
+
 
 .flex {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
-
-
-
 .logo {
     width: 200px;
+    justify-content: flex-start;
+}
+
+.contato {
+    justify-content: flex-end;
+    margin-left: auto;
 }
 
 .logo:hover {
     opacity: 0.9;
 }
 
-.nav-list {
+nav ul {
     display: flex;
     list-style: none;
-    align-items: center;
 }
 
 
-.nav-list li{
+
+
+nav li a{
     font-family: var(--fonte-destaque);
     letter-spacing: 0.1em;
-    padding: 8px;
+    list-style: none;
     border-radius: 8px;
-}
-
-
-.nav-list li a{
     color: white;
     font-size: 22px;
     transition: 0.3s;
     text-decoration: none;
-    padding: 8px;
 }
 
 
-.nav-list li a:hover {
+nav li a:hover {
     opacity: 0.5;
 }
 
@@ -139,18 +138,18 @@ main p {
     color: white;
 }
 
-main > div#grid-top {
+main > div.grid-topo {
     margin: auto;
     display: flex;
     flex-direction: row;
 }
 
-main > div > div#top-left {
+main > div > div.topo-esquerda {
     height: 700px;
     width: 50%;
 }
 
-main > div > div#top-right {
+main > div > div.topo-direita {
     height: 700px;
     width: 50%;
 }
@@ -167,7 +166,7 @@ main > div > div#top-right {
 
 .banner1 {
     margin: auto;
-    width: 800px;
+    max-width: 800px;
 }
 
 .banner1 > h1 {
