@@ -164,7 +164,7 @@ main > div > div.topo-direita {
 
 .banner1 {
     margin: auto;
-    max-width: 800px;
+    max-width: 820px;
 }
 
 .banner1 > h1 {
@@ -178,8 +178,9 @@ main > div > div.topo-direita {
 .banner1 > h2 {
     text-align: center;
     color: white;
-    font-family: museosans300;
+    font-family: museosans500;
     letter-spacing: 1.2px;
+    font-weight: lighter;
 }
 
 .topo-esquerda {
@@ -206,7 +207,8 @@ main > div > div.topo-direita {
     color: white;
     font-style: italic;
     font-size: 25px;
-
+    font-weight: lighter;
+    letter-spacing: 1.5px;
 }
 
 .topo-direita {
@@ -238,44 +240,62 @@ main > div > div.topo-direita {
 
 .full2 {
     background-color: var(--cor3);
-    height: 700px;
+    height: 750px;
 }
 
-.container-clientes {
+.full3 {
+    background-color: var(--cor5);
+    height: 800px;
+}
+
+.container-clientes-vtex {
     margin: auto;
-    width: 1000px;
+    max-width: 1200px;
     justify-content: center;
+    align-items: center;
+    padding-top: 130px;
+}
+
+.container-clientes-flexy {
+    margin: auto;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
     padding-top: 100px;
 }
-
 .logo-titulo {
     display: flex;
     margin: auto;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 .logo-titulo img{
-    width: 180px;
+    width: 250px;
     margin: auto;
-    padding: 25px;
     border-radius: 50px;
-    border: solid 2px black;
 }
 
 .row-clientes {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
 }
 
 .clientes {
-    width: 100px;
+    padding: 20px 30px;
+    width: 150px;
+    height: 80px;
 }
 
-.full3 {
-    background-color: var(--cor5);
-    height: 700px;
+.clientes img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
+
+
 
 .full4 {
     background-color: var(--cor3);
