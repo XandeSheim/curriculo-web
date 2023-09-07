@@ -77,17 +77,13 @@ body {
 
 #header {
     width: 100%;
-    padding: 50px;
     position: fixed;
     top: 0;
     left: 0;
 }
 
 .container {
-    margin: auto;
-    padding-right: 100px;
-    flex-direction: row;
-
+    padding: 40px 50px;
 }
 
 
@@ -98,10 +94,6 @@ body {
 }
 .logo {
     width: 200px;
-}
-
-.contato {
-
 }
 
 .logo:hover {
@@ -119,10 +111,8 @@ nav ul {
 nav li a{
     font-family: var(--fonte-destaque);
     letter-spacing: 0.1em;
-    list-style: none;
-    border-radius: 8px;
     color: white;
-    font-size: 22px;
+    font-size: 23px;
     transition: 0.3s;
     text-decoration: none;
 }
@@ -132,22 +122,26 @@ nav li a:hover {
     opacity: 0.5;
 }
 
+main {
+    width: 100%;
+}
+
 main p {
     color: white;
 }
 
-main > div.grid-topo {
+.grid-topo {
     margin: auto;
     display: flex;
     flex-direction: row;
 }
 
-main > div > div.topo-esquerda {
+.topo-esquerda {
     height: 700px;
     width: 50%;
 }
 
-main > div > div.topo-direita {
+.topo-direita {
     height: 700px;
     width: 50%;
 }
@@ -223,7 +217,7 @@ main > div > div.topo-direita {
 .platforms-container {
     background-color: white;
     border-radius: 20px;
-    width: 560px;
+    max-width: 560px;
     padding: 20px 30px 25px 30px;
     margin: auto;
     margin-top: 150px;
@@ -311,6 +305,7 @@ main > div > div.topo-direita {
 .plataformas-clientes {
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
 }
 
 
