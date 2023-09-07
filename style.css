@@ -179,11 +179,12 @@ main p {
 
 .grid-topo {
     display: flex;
-    flex-wrap: wrap;
+    width: 100%;
 }
 
 .topo-esquerda {
     background-color: var(--cor6);
+    width: 50%;
 }
 
 .text-plataformas {
@@ -212,6 +213,7 @@ main p {
 
 .topo-direita {
     background-color: var(--cor1);
+    width: 50%;
 }
 
 .platforms-container {
@@ -225,9 +227,10 @@ main p {
 
 .row-platforms {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    width: 500px;
+    max-width: 600px;
     margin: auto;
 }
 

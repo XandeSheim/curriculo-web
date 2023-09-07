@@ -1,6 +1,83 @@
 @charset "UTF-8";
 
-@media (max-width: 745px) {
+@media (max-width: 1290px) {
+
+    .topo {
+        height: 500px;
+    }
+
+    .space1 {
+        padding-top: 160px;
+        
+    }
     
+    .banner1 {
+        max-width: 80%;
+    }
+
+    .banner1 > h1 {
+        font-size: 20px;
+    }
+    
+    .banner1 > h2 {
+        font-size: 15px;
+    }
+
+    .grid-topo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .topo-esquerda {
+        width: auto;
+    }
+
+    .text-plataformas {
+        max-width: 300px;
+        margin: auto;
+        margin-top: 220px;
+    }
+    
+    .text-plataformas > h1 {
+        font-family: museosans900;
+        color: white;
+        font-size: 20px;
+        margin-bottom: 23px;
+        letter-spacing: 2px;
+    
+    }
+    
+    .text-plataformas > h2 {
+        font-family: museosans500;
+        color: white;
+        font-style: italic;
+        font-size: 16px;
+        font-weight: lighter;
+        letter-spacing: 1.5px;
+    }
+
+    .topo-direita {
+        width: auto;
+        height: 820px;
+    }
+
+    .platforms-container {
+        border-radius: 30px;
+        max-width: 300px;
+        padding: 20px 30px 25px 30px;
+        margin: auto;
+        margin-top: 150px;
+    }
+
+    .row-platforms {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 300px;
+    }
+
+    .platforms {
+        width: 80px;
+    }
+
 
 }
