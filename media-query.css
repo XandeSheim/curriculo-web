@@ -24,7 +24,7 @@
     
     .banner1 {
         max-width: 80%;
-        margin-top: 100px;
+        margin-top: 250px;
     }
 
     .banner1 > h1 {
@@ -131,10 +131,9 @@
 
     .bloco1, .bloco2, .bloco3 {
         max-width: 340px;
-        height: 450px;
+        height: auto;
         margin: auto;
-        margin-bottom: 60px;
-        margin-top: 60px;
+        margin-bottom: 50px;
         
     }
 
@@ -154,7 +153,7 @@
 }
 
 
-@media (max-width: 1290px) {
+@media (min-width: 700px) and (max-width: 1290px) {
 
     .topo {
         height: auto;
