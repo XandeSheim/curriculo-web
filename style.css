@@ -373,7 +373,7 @@ main p {
 footer {
     height: 100px;
     font-family: var(--fonte-padrão) ;
-    background-color: var(--cor0);
+    background-color: var(--cor1);
     color: white;
     text-align: center;
 }
