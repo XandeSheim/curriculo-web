@@ -150,7 +150,7 @@ main p {
 
 .topo {
     background-color: var(--cor4);
-    height: 700px;
+    height: 650px;
 }
 
 .space1 {
@@ -387,8 +387,6 @@ footer > p > a {
     text-decoration: none;
     color: white;
     border-radius: 10px;
-    
-    
 }
 
 
