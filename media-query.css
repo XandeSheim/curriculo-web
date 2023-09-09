@@ -111,7 +111,7 @@
     }
     
 
-    .logo-titulo img{
+    .logo-titulo a img{
         width: 200px;
     }
 
@@ -125,6 +125,10 @@
         padding: 20px 20px;
         width: 100px;
         height: 80px;
+    }
+
+    .clientes a img{
+        transition: 0.3s;
     }
 
     .bloco1, .bloco2, .bloco3 {
@@ -266,6 +270,11 @@
         padding: 20px 20px;
         width: 100px;
         height: 80px;
+        transition: 0.3s;
+    }
+
+    .clientes a img{
+        transition: 0.3s;
     }
 
     .bloco1, .bloco2, .bloco3 {
