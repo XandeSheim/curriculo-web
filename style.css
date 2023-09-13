@@ -259,12 +259,12 @@ main p {
 
 
 .full2 {
-    background-color: var(--cor4);
+    background-color: var(--cor6);
     height: 750px;
 }
 
 .full3 {
-    background-color: var(--cor6);
+    background-color: var(--cor4);
     height: 800px;
 }
 
@@ -337,11 +337,52 @@ main p {
 
 .full4 {
     display: flex;
-    background-color: var(--cor4);
+    background-color: var(--cor6);
     height: auto;
     padding-top: 80px;
     padding-bottom: 80px;
 }
+
+.full-banner5 {
+    background-color: var(--cor4);
+    height: 400px;
+}
+
+.spaço-clientes {
+    padding-top: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.banner5 {
+    margin: auto;
+    max-width: 520px;
+
+}
+
+.banner5 > h1 {
+    text-align: center;
+    color: white;
+    font-family: museosans900;
+    letter-spacing: 1.5px;
+    margin-bottom: 15px;
+}
+
+.banner5 > h2 {
+    text-align: center;
+    color: white;
+    font-family: museosans500;
+    letter-spacing: 1.2px;
+    font-weight: lighter;
+}
+
+.banner5 > span {
+    margin-top: 20px;
+    color: white;
+}
+
+
 
 .plataformas-clientes {
     margin: auto;
