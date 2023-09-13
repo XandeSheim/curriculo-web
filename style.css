@@ -259,12 +259,12 @@ main p {
 
 
 .full2 {
-    background-color: var(--cor3);
+    background-color: var(--cor4);
     height: 750px;
 }
 
 .full3 {
-    background-color: var(--cor5);
+    background-color: var(--cor6);
     height: 800px;
 }
 
@@ -274,6 +274,7 @@ main p {
     justify-content: center;
     align-items: center;
     padding-top: 130px;
+    
 }
 
 .container-clientes-flexy {
@@ -300,6 +301,10 @@ main p {
 }
 
 .row-clientes {
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -332,7 +337,7 @@ main p {
 
 .full4 {
     display: flex;
-    background-color: var(--cor3);
+    background-color: var(--cor4);
     height: auto;
     padding-top: 80px;
     padding-bottom: 80px;
@@ -346,9 +351,9 @@ main p {
 
 
 .bloco1, .bloco2, .bloco3 {
+    background-color: white;
     width: 340px;
     height: 450px;
-    border: solid 1px black;
     border-radius: 30px;
     margin: 40px 20px;
     

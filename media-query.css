@@ -98,10 +98,12 @@
 
     .full2 {
         height: auto;
+        padding-bottom: 120px;
     }
 
     .full3 {
         height: auto;
+        padding-bottom: 120px;
     }
 
     .full4 {
@@ -116,7 +118,6 @@
     }
 
     .row-clientes {
-        padding-bottom: 57px;
     }
 
     
@@ -241,12 +242,14 @@
         height: auto;
         padding-left: 20px;
         padding-right: 20px;
+        padding-bottom: 120px;
     }
 
     .full3 {
         height: auto;
         padding-left: 20px;
         padding-right: 20px;
+        padding-bottom: 120px;
     }
 
     .full4 {
@@ -261,7 +264,6 @@
     }
 
     .row-clientes {
-        padding-bottom: 57px;
     }
 
     
