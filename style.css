@@ -98,7 +98,7 @@ body {
 }
 
 .logo:hover {
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 nav ul {
@@ -109,7 +109,7 @@ nav ul {
 }
 
 nav ul:hover {
-    transform: translateY(-3px);
+    transform: translateY(-4px);
     
 }
 
@@ -251,7 +251,7 @@ main p {
 }
 
 .platforms:hover {
-    transform: translateY(-3px);
+    transform: scale(1.2);
     cursor: pointer;
 }
 
@@ -328,7 +328,7 @@ main p {
 }
 
 .clientes img:hover {
-    transform: translateY(-5px);
+    transform: scale(1.2);
     cursor: pointer;
 }
 
@@ -436,7 +436,7 @@ main p {
 }
 
 .clientes-b2 img:hover {
-    transform: translateY(-5px);
+    transform: scale(1.2);
     cursor: pointer;
 }
 
