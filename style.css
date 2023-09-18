@@ -178,6 +178,8 @@ main p {
     margin-bottom: 15px;
 }
 
+
+
 .banner1 > h2 {
     text-align: center;
     color: white;
@@ -476,4 +478,10 @@ footer > p > a {
 footer > p > a:hover {
     opacity: 0.5;
     border-radius: 20px;
+}
+
+/*Script Styles Abaixo */
+
+.title-b1, .description-b1, .title-g1, .description-g1, .platforms-container, .platforms, .title-clients, .description-clients, .material-symbols-outlined, .logo-titulo, .clientes, .logo-plataforma-clientes {
+    visibility: hidden;
 }
