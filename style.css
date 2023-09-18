@@ -482,6 +482,6 @@ footer > p > a:hover {
 
 /*Script Styles Abaixo */
 
-.title-b1, .description-b1, .title-g1, .description-g1, .platforms-container, .platforms, .title-clients, .description-clients, .material-symbols-outlined, .logo-titulo, .clientes, .logo-plataforma-clientes {
+.title-b1, .description-b1, .title-g1, .description-g1, .platforms-container, .platforms, .title-clients, .description-clients, .material-symbols-outlined, .logo-titulo, .clientes, .logo-plataforma-clientes, .clientes-b2 {
     visibility: hidden;
 }

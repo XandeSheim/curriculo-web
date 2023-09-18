@@ -24,3 +24,5 @@ sr.reveal('.logo-titulo', {duration: 1000});
 sr.reveal('.clientes', {duration: 1000});
 
 sr.reveal('.logo-plataforma-clientes', {duration: 1000});
+
+sr.reveal('.clientes-b2', {duration: 1000});
