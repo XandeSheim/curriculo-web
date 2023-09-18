@@ -251,7 +251,7 @@ main p {
 }
 
 .platforms:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     cursor: pointer;
 }
 
@@ -328,7 +328,7 @@ main p {
 }
 
 .clientes img:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     cursor: pointer;
 }
 
@@ -436,7 +436,7 @@ main p {
 }
 
 .clientes-b2 img:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     cursor: pointer;
 }
 
